@@ -1,8 +1,9 @@
-import React from 'react'
+//import React from 'react';
+//import ReactDOM from 'react-dom/client';
 import { BrowserRouter, 
   Routes, 
   Route } from 'react-router-dom';
-import {Home} from '/react/airbnb_fake/src/pages/Home'
+import Home from './pages/Home';
 
 
   export default function App() {
@@ -11,7 +12,7 @@ import {Home} from '/react/airbnb_fake/src/pages/Home'
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-  </BrowserRouter>
+    </BrowserRouter>
   )
 }
 

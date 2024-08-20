@@ -1,5 +1,5 @@
 //import React from 'react'
-import Logo from '/react/airbnb_fake/src/components/Logo'
+import Logo from './components/Logo'
 
 
 
