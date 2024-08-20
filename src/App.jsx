@@ -1,3 +1,4 @@
+
 //import React from 'react';
 //import ReactDOM from 'react-dom/client';
 import { BrowserRouter, 
@@ -6,7 +7,7 @@ import { BrowserRouter,
 import Home from './pages/Home';
 
 
-  export default function App() {
+function App() {
   return(
     <BrowserRouter>
       <Routes>
@@ -15,5 +16,7 @@ import Home from './pages/Home';
     </BrowserRouter>
   )
 }
+
+export default App
 
 
